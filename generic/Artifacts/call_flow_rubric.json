@@ -1,0 +1,40 @@
+{
+  "call_flow_rubric": {
+    "GREETING": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "INTENT_DISCOVERY": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "AUTHENTICATION": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "INFORMATION_GATHERING": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "DIAGNOSIS_OR_REVIEW": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "ACTION_OR_RESOLUTION": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "CONFIRMATION": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "CHECK_FOR_OTHER_ISSUES": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    },
+    "CALL_CLOSING": {
+      "good": "Completes the step clearly and efficiently; confirms understanding; uses customer-friendly language.",
+      "bad": "Skips the step, is confusing, or does not confirm; creates unnecessary friction or uncertainty."
+    }
+  }
+}

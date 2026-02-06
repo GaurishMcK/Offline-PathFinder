@@ -1,0 +1,37 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,7000,"NovaNet customer care, Divya speaking. How can I help today?"
+2,Customer,7000,16800,I’m moving to a new apartment next month and I need to shift my internet connection.
+3,Agent,16800,30600,Perfect—move requests are my specialty. I’ll verify your account first: name and current service address?
+4,Customer,30600,38800,"I’m Vikram Desai. Current address is 12A, Greenpark Society, Ahmedabad."
+5,Agent,38800,54000,Thanks Vikram. And the new address where you’re moving?
+6,Customer,54000,63800,"It’s 804, Suncrest Towers, Ahmedabad. Moving date is March 1."
+7,Agent,63800,80600,Got it. First step is serviceability—whether NovaNet fiber is available at the new building. I’m checking coverage…
+8,Agent,80600,102000,"Good news: Suncrest Towers is serviceable, and we already have fiber riser installed up to the 10th floor. Since you’re on the 8th floor, that’s straightforward."
+9,Customer,102000,108000,Nice.
+10,Agent,108000,132000,"Now timing: Do you want the service active at the new place on March 1, and disconnected at the old place on March 1 as well? Some people prefer 2–3 days overlap to avoid moving-day chaos."
+11,Customer,132000,142000,I need internet on day one. Overlap maybe 2 days.
+12,Agent,142000,166000,"Smart. We can schedule installation at the new address on Feb 28 or March 1, and keep old service active until March 2. Billing can overlap, but we can apply a move-credit for the overlapping days if it’s within 3 days."
+13,Customer,166000,174000,Okay.
+14,Agent,174000,196000,"Equipment question: are you using NovaNet router/ONT, or your own router?"
+15,Customer,196000,204000,NovaNet router.
+16,Agent,204000,232000,"Then you have two options: (1) carry your existing router to the new place and the technician reconfigures it, or (2) request a fresh router delivery if you prefer not to transport it. Carrying is faster and avoids any shipping delays."
+17,Customer,232000,240000,I’ll carry it.
+18,Agent,240000,268000,"Perfect. The technician will install/activate the new ONT at the new location; your existing router will plug into it. Now I’ll book an appointment. Available slots: Feb 28 10 AM–1 PM, Feb 28 2 PM–6 PM, or March 1 10 AM–1 PM."
+19,Customer,268000,276000,Feb 28 morning.
+20,Agent,276000,298000,Booked: Feb 28 10–1. I’ll also schedule disconnection of the old address for March 2 end-of-day.
+21,Customer,298000,306000,Will I be without internet at the old place before March 2?
+22,Agent,306000,336000,"No. Your old service stays active until the scheduled disconnection, unless you physically remove the ONT earlier. Since you’re carrying the router only, leave the ONT at the old place until move day—then the tech can collect or you can drop it off depending on policy."
+23,Customer,336000,344000,"Wait, I have to return ONT?"
+24,Agent,344000,372000,"Yes—the ONT is leased and tied to the address. The technician typically takes it during the move-out disconnection, or we schedule a pickup. For moves, we usually swap ONTs because the fiber endpoint differs."
+25,Customer,372000,380000,Okay.
+26,Agent,380000,408000,"Any special instructions for the new place? Like, do you need the router in a specific room for work setup?"
+27,Customer,408000,418000,"Yes, living room near the desk."
+28,Agent,418000,440000,"Noted. The technician can route the fiber patch neatly, but in most apartments we’ll place ONT near the main entry point. If you need it deep inside the home, there may be an extra internal wiring charge. We can discuss with the technician on-site."
+29,Customer,440000,448000,How much extra?
+30,Agent,448000,476000,"Typically _300 to _800 depending on length and conduit feasibility. If the building has pre-laid conduits, sometimes it’s _0. I don’t want to promise a number without seeing the layout."
+31,Customer,476000,484000,Okay.
+32,Agent,484000,510000,"I’m creating a move order: MOVE-441208. You’ll receive SMS confirmation for the Feb 28 appointment and March 2 disconnection. Also, your plan and pricing remain the same after moving."
+33,Customer,510000,518000,Good.
+34,Agent,518000,548000,"Recap: new address verified serviceable, install booked Feb 28 10–1, old address disconnect booked March 2 end-of-day, you’ll carry router, ONT will be swapped, potential internal wiring charges if you want deeper placement. Anything else?"
+35,Customer,548000,554000,No that’s it.
+36,Agent,554000,568000,Awesome. Moving is chaotic—at least your internet won’t be. Thanks for calling NovaNet.

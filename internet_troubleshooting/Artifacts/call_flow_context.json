@@ -1,0 +1,20 @@
+{
+  "call_flow_context": {
+    "purpose": "Internet troubleshooting call flow",
+    "detailed_intent_description": "These calls are problem-solving sessions: slow speeds, intermittent drops, no connection, Wi-Fi coverage issues, modem/router problems, and outage questions. The agent should (1) confirm the symptom and scope (single device vs whole home), (2) authenticate, (3) diagnose with targeted questions (lights, error messages, recent changes), (4) attempt basic troubleshooting first (reboot, cable checks, Wi-Fi band separation, device isolation), then move to advanced steps (signal checks, provisioning refresh, line tests, or escalation if needed), and (5) confirm resolution or set clear next steps.\n\nA strong troubleshooting call is methodical: one change at a time, explicit confirmation after each step, clear expectations about what “fixed” means, and a wrap-up that states whether the issue is resolved or what will happen next and when.",
+    "client_use_case": "",
+    "guidance": [
+      "Confirm issue, authenticate, diagnose symptoms, attempt basic then advanced steps, confirm resolution or next steps."
+    ],
+    "activities_order_hint": [
+      "GREETING",
+      "INTENT_CONFIRMATION",
+      "AUTHENTICATION",
+      "SYMPTOM_DIAGNOSIS",
+      "BASIC_TROUBLESHOOTING",
+      "ADVANCED_TROUBLESHOOTING",
+      "RESOLUTION",
+      "CALL_CLOSING"
+    ]
+  }
+}

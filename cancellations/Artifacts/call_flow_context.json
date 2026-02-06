@@ -1,0 +1,26 @@
+{
+  "call_flow_context": {
+    "purpose": "Cancellations / save and retain call flow",
+    "detailed_intent_description": "These are “save/retain” calls where the customer is trying to cancel service (or parts of it). The agent’s job is to (1) quickly understand what the customer wants to cancel and why, (2) verify the account before making changes, (3) explore retention options when appropriate (discounts, plan changes, pause/suspend, device return guidance, etc.), and (4) complete the cancellation cleanly if the customer insists.\n\nA strong cancellation call feels structured: the agent empathizes, confirms intent, gathers the reason, checks eligibility for retention offers, clearly explains the cancellation timeline/fees/returns, and ends with a crisp summary (what is cancelled, effective date, next steps).",
+    "client_use_case": "",
+    "guidance": [
+      "Authenticate before account changes.",
+      "Explore reason before offers.",
+      "Present retention offers if feasible.",
+      "Confirm products and effective date.",
+      "Explain process/fees/returns and summarize outcome."
+    ],
+    "activities_order_hint": [
+      "GREETING",
+      "AUTHENTICATION",
+      "PROBLEM_INTENT",
+      "CONFIRM_PRODUCTS",
+      "CONFIRM_DATES",
+      "SHARE_RETENTION_OFFERS",
+      "EXPLAIN_PROCESS_COMPLETE_TRANSACTION",
+      "CHECK_FOR_OTHER_ISSUES",
+      "CONSIDER_UPSELL_OPPORTUNITIES",
+      "CALL_CLOSING"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "activities": [
+    "GREETING",
+    "INTENT_CONFIRMATION",
+    "AUTHENTICATION",
+    "BILL_REVIEW",
+    "BILL_EXPLANATION",
+    "RESOLUTION",
+    "CALL_CLOSING"
+  ]
+}

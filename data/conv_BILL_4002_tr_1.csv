@@ -1,0 +1,47 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,6400,"NovaNet Communications billing support, you’re speaking with Arjun. Can I get your name to start?"
+2,Customer,6400,12600,"Hi, I’m Sneha Iyer. I got a message saying I’m past due and my internet might get suspended. I literally paid last week."
+3,Agent,12600,21400,"I can check that right now, Sneha. First, quick verification—service address and the registered mobile number on the account?"
+4,Customer,21400,29000,"Address is 22B, Maple Residency, Bengaluru. Number is 98xxxx3412."
+5,Agent,29000,37400,Thank you. Pulling up your account…
+6,Agent,37400,46600,"Okay, I see what’s happening. Your account shows a balance of _1,120 past due from the previous statement, and a new statement of _2,890 generated yesterday. You made a payment of _2,000 on January 26—so you did pay, just not the full amount that was due."
+7,Customer,46600,54800,Because the bill was wrong. It jumped for no reason. I paid what I usually pay.
+8,Agent,54800,68600,"Got it. Let’s open up the previous statement and find the ‘why.’ I’m seeing two items: a late fee of _100, and an ‘ONT replacement fee’ of _1,200. Then there’s the normal monthly service charge."
+9,Customer,68600,74400,ONT replacement fee? I didn’t replace anything.
+10,Agent,74400,87200,That’s the fiber termination device—basically the box that converts the fiber line. The system shows a technician visit on January 9 and equipment swap completed. Does that ring a bell? Maybe a service call for intermittent connection?
+11,Customer,87200,96600,"A guy came because my internet was dropping. He changed some wire, that’s it. Nobody told me I’m buying a new box."
+12,Agent,96600,112200,"Yeah, that’s the key nuance: if the technician replaces customer-owned equipment, it’s chargeable; if it’s rental equipment under protection plan, it’s not. Your account currently shows you are NOT enrolled in equipment protection, so swaps are billed. But—if you weren’t informed, we can review for a courtesy adjustment."
+13,Customer,112200,120200,I wasn’t informed. At all.
+14,Agent,120200,139000,"Understood. I’m going to check the technician notes to see what was documented. This can take a minute. I’ll stay with you, no disappearing act."
+15,Agent,139000,161400,"Notes say: 'ONT failed optical sync, replaced ONT, informed customer of replacement charge.' That’s what the tech typed. Now, I’m not saying it happened exactly like that—notes are… optimistic sometimes. But it affects what I’m allowed to reverse. Let’s see what options we have."
+16,Customer,161400,170200,So basically his word over mine.
+17,Agent,170200,192000,"It can feel like that, yeah. What I can do: submit an equipment-fee dispute on the grounds of lack of consent, and also check if you qualify for a one-time courtesy waiver based on tenure and payment history. You’ve been with us 3 years—nice—and your payments are usually on time, except this partial payment issue."
+18,Customer,192000,199000,Okay. Do it.
+19,Agent,199000,216400,"Before I file it, one more detail: the internet drops you mentioned—are you stable now after the visit?"
+20,Customer,216400,225800,"Yeah, it’s fine now."
+21,Agent,225800,244800,Cool. That reduces the chance it’s a repeat failure scenario. I’m placing a hold request to billing adjustments. It’s internal; you won’t hear hold music for too long—maybe 2 to 3 minutes. Sound okay?
+22,Customer,244800,249000,Okay.
+23,Agent,249000,430000,"Thanks, placing you on hold."
+24,Agent,430000,452000,"Sneha, thanks for waiting. I have good news and medium news. Good: I can immediately reverse the _100 late fee as a courtesy because the partial payment was tied to a dispute. Medium: the _1,200 ONT fee needs an approval ticket. I submitted it as ADJ-778012 with your statement that consent wasn’t obtained."
+25,Customer,452000,459000,Fine. But what about the suspension message?
+26,Agent,459000,480000,"Right now the system sees past due _1,120. I can add a ‘billing hold’ note for 7 days while the equipment fee dispute is reviewed. That stops suspension during that window. Also, if you can pay the undisputed portion today, you’ll be fully safe."
+27,Customer,480000,488200,What’s undisputed?
+28,Agent,488200,512000,"Let’s calculate. Previous statement total was _3,120. Remove ONT fee _1,200 and late fee _100, remaining is _1,820 for service charges and taxes. You paid _2,000, so actually you already covered the undisputed portion. The ‘past due’ balance is basically the disputed items."
+29,Customer,512000,520800,Then why am I getting threatened?
+30,Agent,520800,542000,"Because the system is a robot and doesn’t understand context unless we spoon-feed it notes. I’ve added the 7-day billing hold, and I’ll also tag the account as ‘under review’ so automated reminders chill out."
+31,Customer,542000,550000,Okay.
+32,Agent,550000,574000,"Now, about the new statement _2,890: this includes your regular monthly plan _2,499 plus taxes, and it also includes an ‘installation visit charge’ of _300."
+33,Customer,574000,582000,Again? No.
+34,Agent,582000,605000,"This one is for the January 9 visit. It posted late and landed on the new statement instead of the old one. If the equipment swap is reversed due to consent issue, we can often reverse the visit charge too—because it becomes a warranty-style correction. I attached that request in the same ticket."
+35,Customer,605000,616000,So I just wait?
+36,Agent,616000,646000,"Pretty much. But we can also reduce future bills right now. I’m seeing you’re on ‘Fiber 300 Legacy’ at _2,499. We have ‘Fiber 300 Smart’ at _2,299 with AutoPay and eBill. Same speed, slightly different naming, lower rate. Would you like that?"
+37,Customer,646000,654200,Is there a catch?
+38,Agent,654200,677000,"Catch is: you need to keep AutoPay and eBill enabled, and there’s a 3-month minimum. No speed downgrade. No extra install. It’s basically a pricing refresh."
+39,Customer,677000,685000,Do it. I’m already on eBill.
+40,Agent,685000,706000,Perfect. I’m applying it effective next billing cycle so it doesn’t create proration confusion today. You’ll see _200 less before taxes monthly.
+41,Customer,706000,712200,Good.
+42,Agent,712200,734000,"Let me recap cleanly: I reversed the _100 late fee immediately. I opened adjustment ticket ADJ-778012 to review and potentially waive the _1,200 ONT replacement fee and the _300 visit charge due to lack of consent. I placed a 7-day billing hold to prevent suspension while it’s reviewed. And I scheduled a plan change to Fiber 300 Smart at _2,299 starting next cycle."
+43,Customer,734000,740000,When will I know about the waiver?
+44,Agent,740000,758000,"Usually 3 to 5 business days. You’ll get SMS/email, and you can also check the billing portal under ‘adjustments pending.’"
+45,Customer,758000,767000,"Alright, thanks."
+46,Agent,767000,780000,"You got it. Robots will still send reminders sometimes, but the account is protected by the hold note. Thanks for calling NovaNet."

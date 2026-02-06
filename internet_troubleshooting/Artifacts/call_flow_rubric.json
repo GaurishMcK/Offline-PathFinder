@@ -1,0 +1,36 @@
+{
+  "call_flow_rubric": {
+    "GREETING": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "INTENT_CONFIRMATION": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "AUTHENTICATION": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "SYMPTOM_DIAGNOSIS": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "BASIC_TROUBLESHOOTING": {
+      "good": "Clear reboot/check steps",
+      "bad": "No actionable steps"
+    },
+    "ADVANCED_TROUBLESHOOTING": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "RESOLUTION": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CALL_CLOSING": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    }
+  }
+}

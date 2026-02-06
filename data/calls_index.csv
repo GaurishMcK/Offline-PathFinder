@@ -1,0 +1,8 @@
+conversation_id,transcript_id,emp_id,call_type,transcript_path,scenario
+conv_CANX_3001,tr_1,14001,cancellations,data/conv_CANX_3001_tr_1.csv,"price increase, retention attempt, final bill, equipment return"
+conv_CANX_3002,tr_1,14002,cancellations,data/conv_CANX_3002_tr_1.csv,"moving abroad, contract, waiver negotiation, port-out rules, final bill timing"
+conv_BILL_4001,tr_1,15001,billing_inquiry,data/conv_BILL_4001_tr_1.csv,roaming + proration + autopay discount missing
+conv_BILL_4002,tr_1,15002,billing_inquiry,data/conv_BILL_4002_tr_1.csv,bill spike + equipment fee + partial payment + late fee reversal + plan optimization
+conv_MOVE_5001,tr_1,16001,move_request,data/conv_MOVE_5001_tr_1.csv,"transfer service, address eligibility, appointment, overlap billing, equipment options"
+conv_TROUB_6001,tr_1,17001,internet_troubleshooting,data/conv_TROUB_6001_tr_1.csv,"intermittent drops, Wi-Fi vs fiber, channel congestion, modem reboot, speed test, dispatch"
+conv_TROUB_6002,tr_1,17002,internet_troubleshooting,data/conv_TROUB_6002_tr_1.csv,"no internet after storm, outage vs ONT, escalation ticket, ETA, backup options"

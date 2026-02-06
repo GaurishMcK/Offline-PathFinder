@@ -1,0 +1,35 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,6800,"NovaNet customer care, Sandeep speaking. How may I assist?"
+2,Customer,6800,16800,I need to cancel my service. I’m leaving the country next week.
+3,Agent,16800,31200,"I can help with that. I’ll verify your account first—name, service address, and registered phone number?"
+4,Customer,31200,39800,"Name is Ayesha Khan. Address is 5, Coral Enclave, Hyderabad. Phone number 97xxxx1190."
+5,Agent,39800,52000,"Thank you, Ayesha. Pulling up your account now…"
+6,Agent,52000,69800,"Alright, I see Fiber 500, and you’re on a 12-month agreement that started September 20. That means there’s an early termination fee if you cancel before the term ends."
+7,Customer,69800,75600,"No. I didn’t sign up for any fee. I’m moving for work, this is not optional."
+8,Agent,75600,91400,"I hear you. The agreement is usually accepted digitally during signup, sometimes with a discounted installation or promo credit. I’m not saying you remember it—most people don’t—but it is on the account. The early termination fee right now is _2,500."
+9,Customer,91400,98000,That’s ridiculous. I’m not paying that.
+10,Agent,98000,116400,"Understood. Let’s see what we can do. We have a policy for relocation: if you’re moving to an address where NovaNet is not serviceable, we can request a waiver of the termination fee. If you’re moving abroad, that typically qualifies, but we need documentation—like travel itinerary or visa/work letter."
+11,Customer,116400,125000,I can email my flight ticket.
+12,Agent,125000,146000,"Perfect. I’ll create a relocation-cancellation case and attach your proof once you send it. While we’re here, do you want the service to end on a specific date? You said next week—what date are you leaving?"
+13,Customer,146000,154200,February 10.
+14,Agent,154200,176000,Okay. I can schedule cancellation effective February 9 end-of-day so you have service through packing chaos. Or February 10 morning. Most customers prefer end-of-day the day before travel.
+15,Customer,176000,182200,End of day Feb 9.
+16,Agent,182200,206000,"Done. Now equipment: you have an ONT and a router on lease. Those must be returned within 7 days of cancellation to avoid non-return fees. If you’re leaving the country, we can schedule a pickup before you go."
+17,Customer,206000,214000,"Yes, pickup before I leave."
+18,Agent,214000,236000,Got it. I’ll schedule pickup for February 7 or 8. Let me check slot availability—one moment.
+19,Agent,236000,316000,"Thanks, checking now…"
+20,Agent,316000,340000,"I have Saturday February 7, 11 AM to 2 PM, or Sunday February 8, 2 PM to 6 PM."
+21,Customer,340000,346000,Saturday.
+22,Agent,346000,372000,"Booked for February 7, 11 to 2. You’ll get SMS confirmation. Now, about the termination fee: I’m opening case REL-663901. Once we get your flight ticket, we submit to the waiver team. Decision is usually within 2 business days."
+23,Customer,372000,382000,Where do I send it?
+24,Agent,382000,406000,I’ll send you an SMS with a secure upload link tied to your case. You can upload the PDF or screenshot. Please ensure your name and travel date are visible.
+25,Customer,406000,414000,Okay. And billing?
+26,Agent,414000,444000,"Final billing: you’ll get a last statement within 48 hours after Feb 9. It will include charges up to Feb 9, plus any remaining device charges if applicable. If the waiver is approved, the termination fee line will be credited or removed."
+27,Customer,444000,456000,And if it’s not approved?
+28,Agent,456000,480000,"Then the early termination fee remains. At that point you can appeal once, especially if the documentation clearly shows relocation outside service area. Since you’re leaving the country, approval rates are pretty high—assuming the ticket matches the account holder name."
+29,Customer,480000,488000,It does.
+30,Agent,488000,512000,Perfect. I’m also noting that you requested cancellation due to international relocation for work. That context matters.
+31,Customer,512000,520000,Okay.
+32,Agent,520000,548000,"Recap: cancellation scheduled for February 9 end-of-day, equipment pickup booked February 7 11 AM–2 PM, relocation waiver case REL-663901 created, upload link will be sent to your phone. Anything else?"
+33,Customer,548000,556000,No.
+34,Agent,556000,570000,"Safe travels, Ayesha. Thanks for calling NovaNet."

@@ -1,0 +1,38 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,7200,"NovaNet technical support, Priya here. What’s going on with your connection today?"
+2,Customer,7200,15600,No internet since last night. There was heavy rain and now it’s dead.
+3,Agent,15600,29200,"Alright—we’ll figure out if this is an outage or equipment issue. First, account verification: name and service address?"
+4,Customer,29200,37600,"Manoj Kulkarni, 17, Riverbend Colony, Thane."
+5,Agent,37600,52200,"Thanks Manoj. I’m checking your area status and your line diagnostics. While I do that, please look at the ONT box lights—Power, PON, LOS."
+6,Customer,52200,59200,Power is green. PON is off. LOS is red blinking.
+7,Agent,59200,75200,"Okay, that’s very telling. LOS blinking red usually means ‘Loss of Signal’ on the fiber—often a cut, bend, water ingress, or upstream outage. Let me check for known outages in Thane."
+8,Agent,75200,100000,I’m seeing an active outage ticket affecting your sector—storm-related fiber damage. That explains the LOS. Estimated restoration window is today between 4 PM and 8 PM.
+9,Customer,100000,108000,So I just wait? I have meetings.
+10,Agent,108000,130000,"I get it. Waiting is not a plan, it’s a vibe. Here’s what I can do: (1) confirm your line is actually part of the outage (not a local break), (2) create a priority note if you’re work-from-home, and (3) discuss temporary backup options."
+11,Customer,130000,136800,Do it.
+12,Agent,136800,166000,I’m running an optical signal test remotely—this takes about 20 seconds.
+13,Agent,166000,190000,Test result: no optical power detected at your ONT. That aligns with the outage. So it’s not just your device.
+14,Customer,190000,198000,Okay.
+15,Agent,198000,224000,"Now, priority note: are you a business account or residential?"
+16,Customer,224000,232000,Residential.
+17,Agent,232000,256000,"Even for residential, we can tag it as ‘WFH critical’ but it doesn’t magically teleport technicians—just helps triage if they’re deciding between branches. I’ll add the note."
+18,Customer,256000,262000,Fine.
+19,Agent,262000,294000,Backup options: Do you have mobile hotspot data you can use temporarily? Or a secondary ISP? Some customers use a 4G dongle during outages.
+20,Customer,294000,304000,I can hotspot but it’s slow and expensive.
+21,Agent,304000,332000,"Understood. Once service is restored, you can request an outage credit for downtime beyond our SLA threshold. For residential, we usually credit based on hours down. I can also pre-note your account so you don’t have to argue later."
+22,Customer,332000,340000,Yes please.
+23,Agent,340000,372000,"Done. Now, just to be safe, let’s do a quick physical check: is the fiber patch cord from the wall to the ONT bent sharply or pinched? Storms sometimes shift furniture or the connector loosens."
+24,Customer,372000,388000,It’s… kinda tight behind the table.
+25,Agent,388000,420000,"If you can, gently straighten it—no sharp bends. And ensure the green connector is firmly seated. Don’t yank—fiber is delicate."
+26,Customer,420000,440000,Okay I adjusted it. LOS still blinking.
+27,Agent,440000,468000,"Then it’s definitely upstream. I’m creating an individual ticket linked to the outage so you get notifications: TS-991702. You’ll receive SMS updates, including when it’s resolved."
+28,Customer,468000,476000,What if it’s not fixed by 8?
+29,Agent,476000,506000,"If it goes past the ETA, the outage ticket updates automatically. Worst-case, if it’s still down tomorrow morning, we can schedule a field technician to check the drop line to your building. But right now, dispatching to each home during an outage slows restoration."
+30,Customer,506000,516000,Okay.
+31,Agent,516000,544000,"One more thing: Do you have a UPS powering the ONT? After storms, unstable power can cause weird light patterns, but your LOS blinking suggests signal loss, not power."
+32,Customer,544000,552000,No UPS.
+33,Agent,552000,574000,"Got it. When the outage resolves, your PON should turn solid green and LOS should go off. If PON stays off after you get an ‘outage resolved’ message, call us—then it’s likely a local line issue."
+34,Customer,574000,582000,Alright.
+35,Agent,582000,606000,"Recap: confirmed storm outage in your sector, LOS blinking red indicates fiber signal loss, ETA 4–8 PM today, ticket TS-991702 created with WFH note and outage credit note. Anything else I can do right now?"
+36,Customer,606000,612000,No.
+37,Agent,612000,626000,"Hang in there. Storms: free ambience, paid consequences. Thanks for calling NovaNet."

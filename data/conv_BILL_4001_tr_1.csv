@@ -1,0 +1,52 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,6200,Thank you for calling NovaNet Communications. This is Riya in billing support. May I have your full name as it appears on the account?
+2,Customer,6200,11800,"Yeah, it’s Karan Mehta. I’m calling because my bill is way higher this month and I’m not paying that."
+3,Agent,11800,20500,"I can absolutely take a look, Karan. Before we get into the bill details, I’ll just verify the account for security. Can you confirm the service address and the last four digits of your ID on file?"
+4,Customer,20500,29200,"Service address is 14, Lakeview Apartments, Block B, Pune. Last four… I think it’s 8831."
+5,Agent,29200,37200,"Perfect, thank you. One moment while I pull up your account…"
+6,Agent,37200,43000,"Alright, I have you here. I’m seeing the current statement total is _4,980 due on February 10. Last month you paid _2,340. You’re right—this is a spike. Let’s break it down together."
+7,Customer,43000,51200,Yeah because it’s normally around two thousand something. This is basically double.
+8,Agent,51200,64000,"Totally fair reaction. I’m seeing two main changes: a one-time charge labeled as international roaming data, and a partial-month proration because your plan changed mid-cycle. Also, I notice your AutoPay discount did not apply on this statement. I’ll explain each, and we’ll see what we can fix."
+9,Customer,64000,73400,International roaming? I didn’t even travel internationally.
+10,Agent,73400,87000,"Got it. When you say you didn’t travel, did anyone on your family plan travel, or did the SIM get used in a roaming network near a border area? Sometimes it shows up if the phone connects to a foreign partner tower."
+11,Customer,87000,94800,"I’m not near a border, and it’s just me. I did go to Dubai in December but that’s not this month."
+12,Agent,94800,111800,"Thanks, that’s helpful. I’m looking at the usage timestamps. This roaming charge is dated January 12, 01:18 AM to 01:47 AM, and it shows 1.2 GB on a partner network. That’s… very specific, which usually means the network recorded a session. Let’s confirm: was your phone possibly in airplane mode and then reconnected, or was your SIM in another device?"
+13,Customer,111800,121200,"No, same phone. Also 1.2 GB in half an hour? That’s insane."
+14,Agent,121200,136000,"It does sound high for that window. A couple possibilities: background app updates, cloud backups, or hotspot tethering. But I’m not here to blame the phone—let’s focus on what we can validate and what adjustments are allowed. I can open a roaming dispute if you believe it’s incorrect."
+15,Customer,136000,141800,Yeah I’m disputing it. Because I didn’t do that.
+16,Agent,141800,156200,"Understood. I’ll create a dispute case. Quick heads-up: disputes typically take 3 to 5 business days, and during that time the charge may remain on the statement, but if it’s found invalid we credit it back. In the meantime, I can also check if any roaming blocks were enabled."
+17,Customer,156200,162800,Fine. But I’m not paying five thousand while you investigate.
+18,Agent,162800,179000,"I hear you. We have two options to avoid a late fee while the dispute is reviewed: one, you pay the undisputed portion today; two, we set a temporary payment arrangement for the full amount with a note about the dispute. I’ll calculate the undisputed portion after we review everything."
+19,Customer,179000,186000,Okay. What about the AutoPay discount you mentioned?
+20,Agent,186000,207000,"Great catch. You’re enrolled in AutoPay with e-mandate, which normally applies a _150 discount. This month it shows as ‘AutoPay payment failed’ on January 28—then you paid manually on the 30th. That’s why the discount didn’t apply. Did you change cards or bank details recently?"
+21,Customer,207000,214600,"My card expired, yeah. But I updated it."
+22,Agent,214600,232800,"You did update it on January 29, I can see that. The first attempt on the 28th failed because the old card was still the default at that moment. The system is strict: if AutoPay fails, the discount drops for that billing cycle. However, I can request a one-time courtesy reinstatement since you updated within 24 hours."
+23,Customer,232800,238800,"Yeah, do that. Because that’s not my fault."
+24,Agent,238800,254200,"I’ll submit that now. It won’t erase the whole spike, but it helps. Now, on proration: you upgraded from ‘Fiber 200’ to ‘Fiber 400’ on January 15. That creates a credit for unused days on Fiber 200 and a charge for the remaining days on Fiber 400. That difference is _420 for this month."
+25,Customer,254200,261200,I upgraded because your agent said it would only be like a small bump.
+26,Agent,261200,277200,"And _420 is in that ‘small bump’ territory, but it shouldn’t double the bill. The roaming charge is the big one—_1,860. Together with the missed AutoPay discount, that’s what created the shock."
+27,Customer,277200,286800,So remove roaming and reinstate discount and it goes back to normal?
+28,Agent,286800,306200,"If the roaming dispute is approved, that’s a _1,860 credit. If the AutoPay courtesy is approved, that’s _150 credit. That would bring your statement from _4,980 down to _2,970. Still higher than last month mainly because of the plan upgrade and because last month had a promotional credit of _480 that expired."
+29,Customer,306200,314400,What promo credit?
+30,Agent,314400,333800,You had a three-month ‘New Fiber Launch’ credit applied October through December. January was the first month without it. I’m seeing it clearly in your billing history as ‘NFL Promo Credit _480.’
+31,Customer,333800,343800,So basically prices are creeping up and you’re hoping people don’t notice. Nice.
+32,Agent,343800,365000,Not gonna argue the vibe—bills should be predictable. What I can do is check current offers on your account. Sometimes we can add a loyalty discount if you keep AutoPay enabled and agree to a 6-month commitment.
+33,Customer,365000,372800,I’m not committing until this roaming thing is solved.
+34,Agent,372800,391400,That’s reasonable. Let me focus on the dispute and the AutoPay courtesy first. I’m going to place you on a brief hold—about two minutes—while I file the dispute properly and check roaming blocks. Is that okay?
+35,Customer,391400,395200,Yeah.
+36,Agent,395200,529200,Thanks—placing you on hold now.
+37,Agent,529200,551200,"Appreciate your patience, Karan. Dispute case number is RN-214588. I also enabled a roaming data block on your line to prevent future partner-network sessions. If you actually travel later, you can remove it temporarily in the app."
+38,Customer,551200,560000,Okay. But what do I pay right now then?
+39,Agent,560000,585000,"Let’s compute the undisputed portion. Current total _4,980 minus disputed roaming _1,860 leaves _3,120. I also submitted the AutoPay discount courtesy request for _150; that’s pending, but if approved it would reduce to _2,970. The safest ‘pay-to-avoid-fees’ amount today is _3,120."
+40,Customer,585000,594000,Still feels like a lot.
+41,Agent,594000,617000,"Totally. If you prefer, I can set a payment arrangement so you pay _1,500 today and the remainder on February 12, with a note that the roaming portion is under dispute. That prevents late fees as long as the arrangement is followed."
+42,Customer,617000,625800,Do that. I’ll pay 1500 today.
+43,Agent,625800,650800,"Done. I’ve scheduled _1,500 for today via your saved card ending 4421. The remaining _3,480 is scheduled for February 12. If the dispute credit posts before that, the scheduled amount automatically reduces."
+44,Customer,650800,659200,And if you reject the dispute?
+45,Agent,659200,682200,"If it’s rejected, you’ll still have the payment arrangement in place, so no late fee as long as it completes. If you disagree with the outcome, you can escalate for a second review and we can request network logs from the partner carrier."
+46,Customer,682200,690800,Okay. How will I know the result?
+47,Agent,690800,707800,"You’ll get an SMS and an email notification when the case closes, usually within 3 to 5 business days. Also, it will appear as a credit or as ‘dispute denied’ in your billing portal."
+48,Customer,707800,716800,Alright. That’s it.
+49,Agent,716800,742000,"Quick recap: roaming dispute RN-214588 submitted for _1,860, roaming data block enabled, AutoPay discount courtesy requested for _150, and payment arrangement set—_1,500 today and remaining on February 12. Anything else I can help with before we wrap?"
+50,Customer,742000,748000,No.
+51,Agent,748000,760000,Thanks for calling NovaNet. Hope the rest of your day is less chaotic than billing systems. Take care.

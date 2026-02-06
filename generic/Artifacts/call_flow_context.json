@@ -1,0 +1,23 @@
+{
+  "call_flow_context": {
+    "purpose": "Open-ended base layout for telco customer-service calls",
+    "detailed_intent_description": "This is a generic call-flow “skeleton” used for open-ended analysis. It does not assume a specific customer intent (billing vs move vs cancellation vs troubleshooting). The goal is to produce a clean, high-level map of the conversation that is stable across many client use cases.\n\nIf the call is later treated as close-ended, this skeleton becomes pass 1/2: it provides a base layout that the second pass can refine into client-specific activities.",
+    "client_use_case": "",
+    "guidance": [
+      "Use this as a lightweight skeleton when intent is open-ended or unknown.",
+      "Keep activities broad; do not overfit to a specific use case.",
+      "Prefer continuity: if uncertain, keep the prior activity rather than oscillating."
+    ],
+    "activities_order_hint": [
+      "GREETING",
+      "INTENT_DISCOVERY",
+      "AUTHENTICATION",
+      "INFORMATION_GATHERING",
+      "DIAGNOSIS_OR_REVIEW",
+      "ACTION_OR_RESOLUTION",
+      "CONFIRMATION",
+      "CHECK_FOR_OTHER_ISSUES",
+      "CALL_CLOSING"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "activities": [
+    "GREETING",
+    "INTENT_CONFIRMATION",
+    "AUTHENTICATION",
+    "COLLECT_NEW_ADDRESS",
+    "CONFIRM_MOVE_DATE",
+    "SCHEDULE_TRANSFER",
+    "RESOLUTION",
+    "CALL_CLOSING"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "call_flow_context": {
+    "purpose": "Billing inquiry call flow",
+    "detailed_intent_description": "These calls are about “money clarity”: unexpected charges, plan price changes, credits, proration, late fees, device installments, promotions falling off, etc. The agent should (1) confirm the exact billing question, (2) authenticate before discussing charges, (3) review the bill/ledger line items, (4) explain the root cause in plain language, and (5) resolve by adjusting charges, applying credits, educating on future bills, or setting expectations when a fix isn’t possible.\n\nA strong billing inquiry call avoids jargon, uses simple before/after numbers, and ends with a clear statement of what will happen next (credit amount, when it posts, what the next bill will look like, and where the customer can verify).",
+    "client_use_case": "",
+    "guidance": [
+      "Confirm billing question, authenticate before charges, review bill, explain plainly, confirm resolution."
+    ],
+    "activities_order_hint": [
+      "GREETING",
+      "INTENT_CONFIRMATION",
+      "AUTHENTICATION",
+      "BILL_REVIEW",
+      "BILL_EXPLANATION",
+      "RESOLUTION",
+      "CALL_CLOSING"
+    ]
+  }
+}

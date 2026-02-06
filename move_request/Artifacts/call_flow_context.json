@@ -1,0 +1,20 @@
+{
+  "call_flow_context": {
+    "purpose": "Move request call flow",
+    "detailed_intent_description": "Move requests are operational logistics: transferring service to a new address, scheduling the move date, confirming equipment requirements, and ensuring continuity (or setting clear downtime expectations). The agent’s job is to (1) confirm the customer is requesting a move/transfer, (2) authenticate, (3) collect the new address and validate serviceability, (4) confirm the move date and any installation requirements, and (5) schedule the transfer and summarize next steps (appointments, self-install vs technician, equipment needs, and what will happen on move day).\n\nA strong move call is detail-oriented and confirmation-heavy: the address is spelled out and re-confirmed, the move date/time is locked in, dependencies are explained (serviceability, install windows, equipment), and the final recap is specific enough that the customer can repeat it back.",
+    "client_use_case": "",
+    "guidance": [
+      "Confirm move request, authenticate, collect new address, confirm date, schedule transfer, summarize."
+    ],
+    "activities_order_hint": [
+      "GREETING",
+      "INTENT_CONFIRMATION",
+      "AUTHENTICATION",
+      "COLLECT_NEW_ADDRESS",
+      "CONFIRM_MOVE_DATE",
+      "SCHEDULE_TRANSFER",
+      "RESOLUTION",
+      "CALL_CLOSING"
+    ]
+  }
+}

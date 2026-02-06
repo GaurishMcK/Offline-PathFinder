@@ -1,0 +1,36 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,7200,"NovaNet customer care, this is Meera. How can I help today?"
+2,Customer,7200,15800,Cancel my internet. You people increased the price again.
+3,Agent,15800,29200,"I can help with cancellation. Before I proceed, I’m required to confirm account details and also explain any final billing and equipment return steps. Can I have your name and service address?"
+4,Customer,29200,36200,"Rahul Sharma, 9th Floor, Orion Towers, Mumbai."
+5,Agent,36200,45800,"Thanks, Rahul. One more security check—registered phone number or last invoice amount?"
+6,Customer,45800,52000,Phone number 99xxxx7721.
+7,Agent,52000,65000,Got it. Pulling your account up now…
+8,Agent,65000,82000,"Okay, I see you’re on Fiber 200 with monthly _2,199. There was a rate adjustment this month to _2,349. Is that the increase you’re referring to?"
+9,Customer,82000,89600,Yes. And last year also it went up. I’m done.
+10,Agent,89600,104200,"Totally understand. Before we cancel, can I ask one thing—are you switching to another provider, or is this because you don’t need the service anymore? It helps me pick the correct cancellation type and avoid surprises like early termination fees."
+11,Customer,104200,110800,I’m switching. Another provider is giving the same plan cheaper.
+12,Agent,110800,130200,"Fair. Quick check: you’re not under a contract right now, so no early termination fee. The only remaining item would be returning NovaNet equipment—your router and ONT—within 7 days to avoid non-return charges."
+13,Customer,130200,138000,"I have a router, yes. How do I return it?"
+14,Agent,138000,158800,"Two options: free pickup appointment, or drop-off at a partner store. Pickup is easiest—courier comes, scans the device, and you get an SMS receipt. Would you prefer pickup?"
+15,Customer,158800,164600,Pickup. I’m not going anywhere.
+16,Agent,164600,186200,"Done. I’ll schedule. Now, cancellation date: do you want to cancel immediately today, or at the end of your billing cycle? Immediate cancellation may create prorated final charges or credits depending on usage and policy."
+17,Customer,186200,194000,Cancel immediately. Today.
+18,Agent,194000,214400,"Understood. I’ll process same-day termination. Note: service may stop within 2 hours. Your final bill will include charges up to today and any remaining balance, minus any prorated credit. It usually generates within 48 hours."
+19,Customer,214400,224200,Fine.
+20,Agent,224200,250000,"Before I finalize, I’m allowed to check if any retention offer can match your new provider. No pressure—just giving you the option. I can apply a _300 monthly loyalty credit for 6 months, bringing your plan to roughly _2,049 before tax. Would that change your mind?"
+21,Customer,250000,260000,No. I already booked the other connection.
+22,Agent,260000,281000,"Got it. Respect. Let’s cancel cleanly then. I’m going to read a short confirmation statement: By requesting disconnection, you authorize NovaNet to terminate services and issue a final bill. Do you confirm you want to proceed?"
+23,Customer,281000,285000,Yes.
+24,Agent,285000,310000,Thank you. Processing cancellation now…
+25,Agent,310000,338000,"Okay, it’s submitted. Cancellation request number is CAN-539201. Your service will end today, February 2, by 6 PM."
+26,Customer,338000,345600,And pickup?
+27,Agent,345600,372000,"Scheduling equipment pickup: earliest slot is tomorrow 10 AM to 1 PM, or Wednesday 2 PM to 6 PM. I’m booking tomorrow 10 to 1 unless that doesn’t work."
+28,Customer,372000,378800,Tomorrow is fine.
+29,Agent,378800,398000,"Booked. You’ll get an SMS with tracking. Please keep the router, ONT, and power adapters together. Missing adapters can trigger a partial fee, which is annoying and avoidable."
+30,Customer,398000,409000,Okay.
+31,Agent,409000,434000,"Final bill: it will be emailed and also visible in the app. If you’re on AutoPay, I recommend disabling it after the final bill is paid to avoid confusion—though AutoPay will only process billed amounts."
+32,Customer,434000,442000,Alright.
+33,Agent,442000,468000,Anything else while I have you? Like updating your email for the final statement if you’re changing providers?
+34,Customer,468000,474000,"No, that’s fine."
+35,Agent,474000,490000,Understood. Thanks for being direct—makes my life easier. Sorry we couldn’t keep you this time. Take care.

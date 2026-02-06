@@ -1,0 +1,44 @@
+{
+  "call_flow_rubric": {
+    "GREETING": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "AUTHENTICATION": {
+      "good": "Verifies account efficiently",
+      "bad": "Skips verification"
+    },
+    "PROBLEM_INTENT": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CONFIRM_PRODUCTS": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CONFIRM_DATES": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "SHARE_RETENTION_OFFERS": {
+      "good": "Tailored save offer",
+      "bad": "No offer / refusal"
+    },
+    "EXPLAIN_PROCESS_COMPLETE_TRANSACTION": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CHECK_FOR_OTHER_ISSUES": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CONSIDER_UPSELL_OPPORTUNITIES": {
+      "good": "Meets intent for step",
+      "bad": "Misses or performs poorly"
+    },
+    "CALL_CLOSING": {
+      "good": "Professional summary/close",
+      "bad": "Rude/abrupt"
+    }
+  }
+}

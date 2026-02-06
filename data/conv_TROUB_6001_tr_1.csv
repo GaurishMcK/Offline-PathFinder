@@ -1,0 +1,62 @@
+phrase_rank,speaker,START_TIME_MS,END_TIME_MS,text
+1,Agent,0,7000,"NovaNet technical support, this is Joshua. Are you calling about internet issues today?"
+2,Customer,7000,16200,Yes. It keeps dropping like every hour. I’m working from home and it’s driving me insane.
+3,Agent,16200,29200,"I’m with you. Let’s get it stable. First, I’ll verify the account—name and service address?"
+4,Customer,29200,38000,"Nitin Verma, 301, Skyview Heights, Gurgaon."
+5,Agent,38000,52000,"Thanks. I see your Fiber 400 line. Now, when it drops—do you lose Wi-Fi only, or does the whole internet go down? Like, do wired devices also drop, if you have any?"
+6,Customer,52000,62000,Mostly Wi-Fi. My laptop shows connected but no internet.
+7,Agent,62000,78000,"That’s an important clue. If Wi-Fi stays connected but internet dies, it could be the router losing upstream connection, or DNS issues, or the fiber link flapping. Let’s check your router and ONT lights. Are you near the devices right now?"
+8,Customer,78000,84000,Yeah I’m next to them.
+9,Agent,84000,104000,"Great. Please tell me the lights you see on the ONT box—Power, PON/Optical, LOS, and LAN—what are they doing?"
+10,Customer,104000,114000,Power is green. PON is green. LOS is off. LAN is blinking.
+11,Agent,114000,126000,That actually looks healthy on the fiber side—PON green and LOS off means the optical link is stable. So we likely focus on router/Wi-Fi. Which router model do you have—any label like NovaWave AX1800?
+12,Customer,126000,134000,"Yeah, NovaWave AX1800."
+13,Agent,134000,156000,"Perfect. Next: how many devices are typically connected? Phones, TVs, laptops, smart stuff—ballpark."
+14,Customer,156000,166000,"Like… 12? Maybe more. Two TVs, two laptops, phones, Alexa, all that."
+15,Agent,166000,192000,"Okay, that’s normal household density. Intermittent Wi-Fi drops can happen if the 2.4 GHz band is congested, or if the router is overheating, or if a device is hogging bandwidth with backups. Let’s run two checks: (1) restart the router cleanly, and (2) run a speed test on a single device close to the router."
+16,Customer,192000,198000,I already restarted before.
+17,Agent,198000,224000,"Totally—most people do. The difference is we’ll do a ‘full power cycle’ in the correct order so the ONT and router renegotiate cleanly. Steps: unplug router power. Wait 10 seconds. Then unplug ONT power. Wait 30 seconds. Then plug ONT back in, wait until PON is solid green, then plug router back in."
+18,Customer,224000,232000,"Okay, doing it."
+19,Customer,232000,242000,Router unplugged.
+20,Customer,242000,252000,ONT unplugged.
+21,Agent,252000,282000,"Cool. While we wait the 30 seconds, quick question: is the router placed in a closed cabinet or near heat sources? Overheating can cause periodic resets."
+22,Customer,282000,290000,It’s in the TV unit shelf. Kinda enclosed.
+23,Agent,290000,312000,"That could be a real culprit. Wi-Fi routers are tiny space heaters with feelings. They need airflow. After we stabilize things, I’ll recommend moving it into open air if possible."
+24,Customer,312000,320000,"Okay, ONT back in."
+25,Agent,320000,360000,Wait for PON solid green…
+26,Customer,360000,370000,It’s green now.
+27,Agent,370000,386000,Great. Plug the router back in.
+28,Customer,386000,398000,Done.
+29,Agent,398000,430000,"Give it about 60 seconds. While it boots, do you see any red light on the router?"
+30,Customer,430000,440000,"No, normal."
+31,Agent,440000,466000,"Now on your phone or laptop, connect to your 5 GHz Wi-Fi network—usually it’s the one with ‘_5G’ suffix. Are you connected to 5 GHz or 2.4?"
+32,Customer,466000,476000,I’m on the normal one. Not sure which.
+33,Agent,476000,506000,"No worries. On most phones, if you tap the Wi-Fi network details, it shows frequency. If it’s 5 GHz, it’s typically faster and less congested but shorter range. If it’s 2.4, it’s longer range but crowded. Can you check?"
+34,Customer,506000,516000,It says 2.4.
+35,Agent,516000,538000,Let’s switch to 5 GHz for your work laptop if it’s nearby. Pick the ‘_5G’ network and enter the same password.
+36,Customer,538000,558000,Okay… connected.
+37,Agent,558000,586000,"Great. Now open a speed test site—any is fine—and run it once. Tell me download, upload, and ping."
+38,Customer,586000,612000,"Download 280 Mbps, upload 310, ping 6."
+39,Agent,612000,636000,That’s excellent. So the line is strong right now. The drop issue might be Wi-Fi interference or router stability. Let’s check router uptime logs on my side—NovaWave supports remote diagnostics if enabled. I see it is enabled.
+40,Agent,636000,670000,"I’m looking at the last 24 hours: router reboot events at 11:02 AM, 1:14 PM, 3:09 PM, and 5:05 PM. That pattern looks like overheating or a power fluctuation."
+41,Customer,670000,678000,So it’s the router?
+42,Agent,678000,706000,"Very likely. Two action items: (1) Move router to open air and keep it upright, not stacked under devices. (2) If possible, plug it into a surge protector. Also, we can push a firmware update if yours is behind."
+43,Customer,706000,714000,Do the update.
+44,Agent,714000,742000,Okay. Firmware push will briefly restart Wi-Fi for about 2 minutes. Do you want me to do it now or later tonight?
+45,Customer,742000,748000,Now. I’ll survive.
+46,Agent,748000,770000,"Alright, initiating update…"
+47,Agent,770000,900000,Wi-Fi may drop—this is expected.
+48,Customer,900000,910000,Yeah it disconnected.
+49,Agent,910000,944000,Good sign actually—it’s applying. Give it another minute.
+50,Customer,944000,954000,It’s back.
+51,Agent,954000,980000,"Awesome. I now see firmware version updated. Next: I’ll also optimize Wi-Fi channels. I’m setting 2.4 GHz to auto channel selection and reducing band steering aggressiveness, which helps stability for mixed devices."
+52,Customer,980000,988000,Okay.
+53,Agent,988000,1012000,"Now, if the drops continue after moving the router out of the cabinet, we should replace the router. I can create a dispatch ticket, but I’d rather not waste your time if placement fixes it."
+54,Customer,1012000,1022000,I can move it now.
+55,Agent,1022000,1042000,Do it—just ensure it’s at least a hand’s width away from walls and not enclosed.
+56,Customer,1042000,1056000,Okay moved.
+57,Agent,1056000,1080000,"Perfect. Let’s monitor. I’ll set a 48-hour ‘stability watch’ on the line, which flags if the router reboots again. If it does, we’ll replace it without arguing."
+58,Customer,1080000,1088000,Good.
+59,Agent,1088000,1112000,"Recap: fiber link looks stable, router was rebooting multiple times, firmware updated, channels optimized, router moved to open air. If you still get drops, call us and reference case TS-884210 so you don’t have to repeat the whole saga."
+60,Customer,1112000,1120000,Thanks.
+61,Agent,1120000,1134000,You got it. May your Wi-Fi behave like a civilized network. Take care.
